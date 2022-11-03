@@ -11,13 +11,13 @@ spec:
   project: edu31
   
   source:
-    repoURL: https://github.com/shclub/edu14-2.git
+    repoURL: https://github.com/JooMal/edu14-2.git
     targetRevision: HEAD
     path: charts/frontend
   
   destination:
     server: https://kubernetes.default.svc
-    namespace: edu31
+    namespace: edu19
     
   syncPolicy:
     automated: 
